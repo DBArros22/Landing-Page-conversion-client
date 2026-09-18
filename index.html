@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Pages de Alta Conversão | Entrega Rápida para o seu Negócio</title>
+    <title>TinyDesk Solutions | Engenharia de Software & Landing Pages de Alta Conversão</title>
     <!-- Tailwind CSS CDN para máxima performance e velocidade -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -12,10 +12,10 @@
                 extend: {
                     colors: {
                         brand: {
-                            50: '#eef2ff',
-                            500: '#6366f1',
-                            600: '#4f46e5',
-                            700: '#4338ca',
+                            50: '#ecfdf5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
                         }
                     }
                 }
@@ -23,94 +23,101 @@
         }
     </script>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-slate-950">
 
     <!-- HEADER / NAV -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div class="text-xl font-black tracking-wider text-white">
-                DEV<span class="text-brand-500">CONVERTE</span>.
+            <div class="text-xl font-black tracking-wider text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-brand-500 inline-block animate-pulse"></span>
+                TinyDesk<span class="text-brand-500">Solutions</span>
             </div>
-            <a href="#contato" class="hidden sm:inline-flex bg-brand-600 hover:bg-brand-700 text-white font-medium px-5 py-2.5 rounded-xl transition shadow-lg shadow-brand-500/20">
-                Garantir Minha Vaga
-            </a>
+            <div class="flex items-center gap-4">
+                <a href="#servicos" class="hidden md:inline-block text-sm text-slate-300 hover:text-white transition">Soluções</a>
+                <a href="#contato" class="bg-brand-600 hover:bg-brand-500 text-slate-950 font-bold px-5 py-2.5 rounded-xl transition shadow-lg shadow-brand-500/20 text-sm">
+                    Falar com Especialista
+                </a>
+            </div>
         </div>
     </header>
 
     <!-- HERO SECTION -->
     <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(99,102,241,0.15),rgba(255,255,255,0))]"></div>
+        <!-- Gradiente de fundo sutil -->
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(16,185,129,0.15),rgba(255,255,255,0))]"></div>
+        
         <div class="max-w-5xl mx-auto px-6 text-center relative z-10">
             <span class="inline-block bg-brand-500/10 text-brand-400 border border-brand-500/20 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wider">
-                Engenharia de Software + Especialista em ADS
+                Engenharia de Software &bull; Especialistas em ADS & Conversão
             </span>
             <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-8 leading-tight">
-                Sua empresa precisa de <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-indigo-300">clientes no piloto automático</span>, não de um site bonito que não vende.
+                Sua empresa gerando <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-200">caixa e tráfego qualificado</span> no piloto automático.
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
-                Desenvolvo landing pages ultra-rápidas, validadas por métricas de tráfego pago e desenhadas cientificamente para transformar cliques em caixa.
+                Começamos pelo ativo mais urgente do seu negócio: <strong class="text-slate-200">Landing Pages ultra-rápidas</strong> desenhadas cientificamente para transformar cliques em clientes. Depois, escalamos a tecnologia da sua empresa.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#contato" class="w-full sm:w-auto bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-xl shadow-brand-600/30 transition transform hover:-translate-y-0.5">
-                    Quero minha Landing Page que Vende
+                <a href="#contato" class="w-full sm:w-auto bg-brand-600 hover:bg-brand-500 text-slate-950 font-extrabold text-lg px-8 py-4 rounded-xl shadow-xl shadow-brand-600/20 transition transform hover:-translate-y-0.5">
+                    Quero Minha Landing Page de Alta Conversão
                 </a>
             </div>
-            <p class="text-xs text-slate-500 mt-4">⚡ Prazos expressos e suporte direto com o desenvolvedor.</p>
+            <p class="text-xs text-slate-500 mt-4">⚡ Alta performance em código limpo &bull; Prazos expressos para empresários exigentes.</p>
         </div>
     </section>
 
-    <!-- SEÇÃO DE DIFERENCIAIS (AUTORIDADE) -->
-    <section class="py-20 bg-slate-900/50 border-y border-slate-800/60">
+    <!-- SEÇÃO DE AUTORIDADE / O MÉTODO -->
+    <section id="servicos" class="py-20 bg-slate-900/40 border-y border-slate-800/60">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Por que o meu método funciona?</h2>
-                <p class="text-slate-400">Não sou apenas um programador. Entendo a fundo o comportamento do consumidor e o algoritmo dos anúncios.</p>
+                <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Por que a TinyDesk Solutions é diferente?</h2>
+                <p class="text-slate-400">Não criamos apenas "sites bonitos". Construímos ferramentas de vendas validadas por engenharia e tráfego pago.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl relative">
+                <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl relative">
                     <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center text-brand-400 font-bold text-xl mb-6">01</div>
                     <h3 class="text-xl font-bold text-white mb-3">Foco Cirúrgico em Conversão</h3>
-                    <p class="text-slate-400 leading-relaxed">Cada pixel, texto e botão é posicionado com base em testes e neurociência de consumo para zerar a sua taxa de rejeição.</p>
+                    <p class="text-slate-400 leading-relaxed">Cada CTA, bloco de texto e layout é estruturado para zerar a rejeição e guiar o seu potencial cliente direto para o botão de compra ou WhatsApp.</p>
                 </div>
-                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl relative">
+                <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl relative">
                     <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center text-brand-400 font-bold text-xl mb-6">02</div>
-                    <h3 class="text-xl font-bold text-white mb-3">Velocidade Extrema (Performance)</h3>
-                    <p class="text-slate-400 leading-relaxed">Código limpo, sem excesso de plugins pesados. Sua página carrega em milissegundos, o que barateia o seu custo por clique no tráfego pago.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Performance Extrema</h3>
+                    <p class="text-slate-400 leading-relaxed">Desenvolvidas com arquitetura web de ponta (sem plugins inchados). Páginas que carregam em milissegundos barateiam o seu custo por clique (CPC) nos anúncios.</p>
                 </div>
-                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl relative">
+                <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl relative">
                     <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center text-brand-400 font-bold text-xl mb-6">03</div>
-                    <h3 class="text-xl font-bold text-white mb-3">Visão de Tráfego Pago</h3>
-                    <p class="text-slate-400 leading-relaxed">Como entendo de ADS, a estrutura da página já nasce preparada para receber campanhas do Meta Ads e Google Ads perfeitamente.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Visão de Futuro Tecnológico</h3>
+                    <p class="text-slate-400 leading-relaxed">Começamos entregando sua máquina de conversão rápida e evoluímos como o braço tecnológico oficial da expansão dos seus negócios.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SEÇÃO DE CONTATO / CAPTURA (FORMULÁRIO OU WHATSAPP) -->
+    <!-- SEÇÃO DE CAPTURA / FORMULÁRIO -->
     <section id="contato" class="py-24 relative">
         <div class="max-w-3xl mx-auto px-6">
-            <div class="bg-gradient-to-b from-slate-900 to-slate-900/80 border border-slate-800 p-8 md:p-12 rounded-3xl shadow-2xl">
+            <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 p-8 md:p-12 rounded-3xl shadow-2xl">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-white mb-3">Dê o primeiro passo para escalar suas vendas</h2>
-                    <p class="text-slate-400">Preencha os campos abaixo para conversarmos diretamente sobre o seu projeto.</p>
+                    <span class="text-brand-400 text-xs font-semibold uppercase tracking-wider block mb-2">Atendimento Direto com o Fundador</span>
+                    <h2 class="text-3xl font-bold text-white mb-3">Vamos estruturar o seu projeto?</h2>
+                    <p class="text-slate-400">Preencha os dados abaixo. Retornaremos em instantes para alinhar prazo e escopo.</p>
                 </div>
                 
-                <!-- Substitua o action pelo seu endpoint ou link do WhatsApp/Ttypeform -->
+                <!-- Ajuste o action para o seu endpoint ou redirecionamento de WhatsApp -->
                 <form action="#" method="POST" class="space-y-6">
                     <div>
-                        <label class="block text-sm font-medium text-slate-300 mb-2">Seu Nome</label>
-                        <input type="text" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="Ex: João Silva">
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Seu Nome / Nome da Empresa</label>
+                        <input type="text" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="Ex: Carlos Mendes">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-slate-300 mb-2">Seu WhatsApp / Telefone</label>
-                        <input type="tel" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="(00) 90000-0000">
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Seu WhatsApp com DDD</label>
+                        <input type="tel" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="(11) 99999-9999">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-slate-300 mb-2">Qual é o seu nicho ou negócio?</label>
-                        <textarea rows="3" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="Descreva brevemente o que você vende..."></textarea>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Qual é o seu nicho atual ou desafio?</label>
+                        <textarea rows="3" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-500 transition" placeholder="Conte brevemente o que você vende ou qual aplicação precisa..."></textarea>
                     </div>
-                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-brand-600/30 transition text-lg">
-                        Quero Minha Landing Page de Alta Conversão
+                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-500 text-slate-950 font-extrabold py-4 rounded-xl shadow-lg shadow-brand-600/20 transition text-lg cursor-pointer">
+                        Solicitar Orçamento e Iniciar Projeto
                     </button>
                 </form>
             </div>
@@ -119,7 +126,7 @@
 
     <!-- FOOTER -->
     <footer class="py-8 border-t border-slate-900 text-center text-slate-600 text-sm">
-        <p>&copy; 2026 DevConverte. Todos os direitos reservados.</p>
+        <p>&copy; 2026 TinyDesk Solutions. Todos os direitos reservados. Engenharia voltada a resultados.</p>
     </footer>
 
 </body>
